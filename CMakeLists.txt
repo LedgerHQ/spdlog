@@ -43,9 +43,9 @@ if(SPDLOG_BUILD_EXAMPLES)
     add_subdirectory(example)
 endif()
 
-if(SPDLOG_BUILD_TESTING)
-    add_subdirectory(tests)
-endif()
+#if(SPDLOG_BUILD_TESTING)
+#    add_subdirectory(tests)
+#endif()
 
 #---------------------------------------------------------------------------------------
 # Install/export targets and files
